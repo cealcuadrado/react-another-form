@@ -1,8 +1,11 @@
+import MyForm from '../my-form/MyForm';
 import './Layout.css';
 
 function Layout() {
     return (
-        <p>Hola, mundo!</p>
+        <div className="layout">
+            <MyForm/>
+        </div>
     );
 }
 
